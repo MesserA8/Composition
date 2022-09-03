@@ -12,7 +12,7 @@ class ChooseLevelFragment : Fragment() {
 
     private var _binding: FragmentChooseLevelBinding? = null
     private val binding: FragmentChooseLevelBinding
-    get() = _binding ?: throw RuntimeException("ChooseLevelFragment == null")
+    get() = _binding ?: throw RuntimeException("FragmentChooseLevelBinding == null")
 
 
     override fun onCreateView(

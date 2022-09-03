@@ -12,7 +12,7 @@ class GameFragment : Fragment() {
 
     private var _binding: FragmentGameBinding? = null
     private val binding: FragmentGameBinding
-    get() = _binding ?: throw RuntimeException("FragmentGame == null")
+    get() = _binding ?: throw RuntimeException("FragmentGameBinding == null")
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -30,5 +30,6 @@ class GameFragment : Fragment() {
 
     override fun onDestroy() {
         super.onDestroy()
+        _binding = null
     }
 }

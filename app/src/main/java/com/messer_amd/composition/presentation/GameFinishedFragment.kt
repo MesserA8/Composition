@@ -12,7 +12,7 @@ class GameFinishedFragment : Fragment() {
 
     private var _binding: FragmentGameFinishedBinding? = null
     private val binding: FragmentGameFinishedBinding
-    get() = _binding ?: throw RuntimeException("FragmentGameFinished == null")
+    get() = _binding ?: throw RuntimeException("FragmentGameFinishedBinding == null")
 
     override fun onCreateView(
         inflater: LayoutInflater,
