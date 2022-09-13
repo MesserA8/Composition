@@ -2,15 +2,17 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-parcelize'
+    id 'androidx.navigation.safeargs'
+    id 'kotlin-kapt'
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.messer_amd.composition"
         minSdk 24
-        targetSdk 32
+        targetSdk 30
         versionCode 1
         versionName "1.0"
 
